@@ -1,12 +1,20 @@
+/* 全ページ共通タイトル */
+*{
+    margin: 0;   
+}
+
 body{
 background-color: black;
 }
 
 .title{
+    margin-top: 20px;
 color: red;
 font-weight: bold;
 text-align: center;
 }
+
+/* top.htmlのCSS */
 
 #topwarning{
     color: yellow;
@@ -51,6 +59,8 @@ hr {
     margin-top: 5px;
 }
 
+
+/* 共通のfooter */
 footer{
     margin-top: 20px;
     width: 100%;
@@ -65,4 +75,17 @@ footer{
     font-size: 11px;
     color: silver;
     padding: 5px 0; 
+}
+
+/* tabelpagesのCSS */
+#human-pro{
+margin: 0 100px;
+}
+
+.table{
+    margin: 0 auto;
+}
+
+.pages{
+    margin-bottom: 40px;
 }
