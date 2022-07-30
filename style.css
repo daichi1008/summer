@@ -4,7 +4,7 @@
 }
 
 body{
-background-color: black;
+background-color: #333333;
 }
 
 .title{
@@ -36,6 +36,7 @@ text-align: center;
 hr {
     width: 95%;
     height: 2px;
+    margin: 0 auto;
     background-color: white;
     border: none;
 }
@@ -64,8 +65,7 @@ hr {
 footer{
     margin-top: 20px;
     width: 100%;
-    background-color:#333333;
-    position: fixed;
+    background-color:#dcdcdc;
     bottom: 0;
     height: 30px;
 }
@@ -73,19 +73,47 @@ footer{
 .footer-text{
     text-align: center;
     font-size: 11px;
-    color: silver;
+    color: black;
     padding: 5px 0; 
 }
 
 /* tabelpagesのCSS */
-#human-pro{
-margin: 0 100px;
-}
-
-.table{
+#human-container{
+    background-color:darkgray;
+    width: 611px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
-.pages{
-    margin-bottom: 40px;
+#human-title{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;  
+}
+
+
+#human-prof{
+    line-height: 25px;
+    padding :15px 15px
+}
+
+.table_text{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    margin: 20px 0;
+}
+
+.pagination{
+       justify-content: center;
 }
