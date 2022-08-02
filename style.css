@@ -117,3 +117,17 @@ li{
 .pagination{
        justify-content: center;
 }
+
+.table ul li a:link{
+    color: dimgray;
+}
+
+.table ul li a:visited{
+    color: blueviolet;
+
+}
+
+.table ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
