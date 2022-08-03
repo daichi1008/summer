@@ -61,21 +61,7 @@ hr {
 }
 
 
-/* 共通のfooter */
-footer{
-    margin-top: 20px;
-    width: 100%;
-    background-color:#dcdcdc;
-    bottom: 0;
-    height: 30px;
-}
 
-.footer-text{
-    text-align: center;
-    font-size: 11px;
-    color: black;
-    padding: 5px 0; 
-}
 
 /* tabelpagesのCSS */
 #human-container{
@@ -99,9 +85,10 @@ footer{
 
 .table_text{
     text-align: center;
-    color: white;
-    font-size: 25px;
+    color:#eddc44;
+    font-size: 40px;
     font-weight: bold;
+    
     
 }
 
@@ -130,4 +117,75 @@ li{
 .table ul li a:hover{
     color: red;
     font-weight: bold;
+}
+
+/* pagesbuttonCSS */
+.page-no{
+    background-color: black;
+    color: red;
+    border: solid 1px red;
+}
+
+.page-no:hover{
+    background-color: red;
+    color: black;
+    border: solid 1px black;
+}
+
+
+/* mainpageのCSS */
+
+.pages-title{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.pages-title h3{
+    color: #eddc44;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+.pages-main{
+    width: 900px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.pages-main p{
+    padding: 20px 20px;
+    color: red;
+}
+
+.index-re{
+text-align: center;
+}
+
+.index-re a{
+    background-color: black;
+    color: red;
+    border: solid 1px red;
+}
+
+.index-re a:hover{
+    background-color: red;
+    color: black;
+    border: solid 1px black;
+}
+
+ /* 共通のfooter  */
+ footer {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #dcdcdc;
+    bottom: 0;
+    height: 30px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 11px;
+    color: black;
+    padding: 5px 0;
 }
