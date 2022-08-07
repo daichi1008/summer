@@ -1,6 +1,7 @@
 /* 全ページ共通タイトル */
 *{
     margin: 0;   
+    padding: 0;
 }
 
 body{
@@ -66,7 +67,7 @@ hr {
 /* tabelpagesのCSS */
 #human-container{
     background-color:darkgray;
-    width: 611px;
+max-width: 611px;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -151,11 +152,13 @@ li{
     width: 900px;
     margin: 0 auto;
     background-color: black;
+    
 }
 
 .pages-main p{
     padding: 20px 20px;
     color: red;
+    font-size: 20px;
 }
 
 .index-re{
@@ -175,12 +178,23 @@ text-align: center;
 }
 
  /* 共通のfooter  */
+ .wrapper{
+    min-height: 100%;
+        position: relative;
+        /*←相対位置*/
+        padding-bottom: 120px;
+        /*←footerの高さ*/
+        box-sizing: border-box;
+        /*←全て含めてmin-height:100vhに*/
+ }
  footer {
-    margin-top: 20px;
-    width: 100%;
-    background-color: #dcdcdc;
-    bottom: 0;
-    height: 30px;
+     width: 100%;
+     background-color: #dcdcdc;
+     height: 25px;
+     margin-top: 20px;
+    
+    position: absolute;
+    bottom: 0;  
 }
 
 .footer-text {
